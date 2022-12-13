@@ -18,13 +18,11 @@ const Navbar: React.FC<NavbarProps> = () => {
 
       <div className={styles.navright}>
         <Link to="/aboutMe">About Me</Link>
-        <Link to="/example">Experiences</Link>
+        <Link to="/experience">Experiences</Link>
         <Link to="/contact">Contact</Link>
       </div> 
 
-      <div className="navtoggle">
-        <div className="menu"></div>
-      </div>
+      
     </div>
   )
 }

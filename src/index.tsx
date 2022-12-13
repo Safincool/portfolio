@@ -24,8 +24,8 @@ root.render(
   <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path='example' element={<SomeExampleComponent />} />
-      <Route path='/first' element={<MyFirstComponent />} />
+      <Route path='experience' element={<SomeExampleComponent />} />
+      <Route path='aboutMe' element={<MyFirstComponent />} />
       <Route path='/navbar' element={<Navbar />}/>
     </Routes>
   </BrowserRouter>
