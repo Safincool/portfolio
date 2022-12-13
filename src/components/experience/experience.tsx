@@ -9,23 +9,23 @@ const Experience: React.FC<ExperienceProps> = () => {
   return (
     <div className={styles.container}>
        <h1 className={styles.header}>My experiences</h1>
-        <h2 className={styles.header2left}>My programming experiences</h2>
-        <h2 className={styles.header2right}>My other experiences</h2>
-            <p>
+        <div className={styles.header2}>
+            <h2>My coding experiences</h2>
+            <h2>My other experiences</h2>
+        </div>
+        <div className={styles.header3}>
+            <h3>
                 My coding language experiences are C+,
                 Python, HTML, CSS, Java,
                 JavaScript, TypeScript.
-            </p>
-   
-            <p>
+            </h3>
+            <h3>
                 I have worked at Restaurants,
-                Markets and in a Daycare Club. 
+                Markets and in a Elementary School Club. 
                 So I have a good experience of Customer Service.
-            </p>
-        <h1 className={styles.header}>My projects</h1>
-            <p>
-                
-            </p>
+            </h3>
+        </div> 
+       
     </div>
   )
 }

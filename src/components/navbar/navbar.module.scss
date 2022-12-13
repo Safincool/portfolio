@@ -10,14 +10,20 @@
     
 }
 
+.S{
+    color: rgba(51, 9, 51, 0.505);
+}
+
 
 //navleft
 
 .container > .navleft a {
+    display: flex;
     font-size: 50px;
     font-style: bold;
     color: white;
     text-decoration: none;
+    font-family:sans-serif;
     
 }
  
@@ -31,6 +37,7 @@
     position: relative;
     color: white;
     text-decoration: none; //removes the underline
+    font-family:sans-serif;
     
 }
 

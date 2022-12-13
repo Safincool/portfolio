@@ -4,7 +4,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Experience from './components/experience/experience';
 import Navbar from './components/navbar/navbar';
-import AboutMe from './components/aboutMe/aboutMe';
+import Project from './components/projects/project';
+import Contact from './components/contact/contact';
+import Home from './components/home/home';
 import './index.module.scss';
 
 import {
@@ -12,6 +14,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+
+
+
 
 
 
@@ -25,9 +30,11 @@ root.render(
   <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
+      <Route path='/home' element={<Home />}/>
       <Route path='experience' element={<Experience />} />
-      <Route path='aboutMe' element={<AboutMe />} />
       <Route path='/navbar' element={<Navbar />}/>
+      <Route path='/projects' element={<Project />}/>
+      <Route path='/contact' element={<Contact />}/>
     </Routes>
   </BrowserRouter>
 </React.StrictMode>

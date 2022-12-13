@@ -1,6 +1,5 @@
 .container {
-    color: white;
-    font-size: 30px;
+    color: rgba(74, 74, 74, 0.871);
     -webkit-text-stroke: 0.2px;
     -webkit-text-stroke-color: black;
     
@@ -10,16 +9,38 @@
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: rgba(98, 20, 98, 0.486);
+    font-size: 70px;
+    font-family:sans-serif;
 }
 
-.header2left {
-    text-align: left;
+.header2 {
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+    justify-content:space-around;
+    margin: 25px;
+    text-decoration: underline dashed;
+    text-decoration-color: rgba(98, 20, 98, 0.486);
+    font-family:sans-serif;
 }
 
-.header2right {
-    text-align: right;
+
+
+.header3 {
+    display:flex;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: solid;
+    gap: 30%;
+    padding-left: 12%;
+    padding-right: 8%;
+    position: relative;
+    top: -50px;
+    font-family:sans-serif;
     
 }
+
+
 
 
 
