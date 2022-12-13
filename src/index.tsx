@@ -12,6 +12,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import AboutMe from './components/aboutMe/aboutMe';
 
 
 
@@ -25,7 +26,7 @@ root.render(
     <Routes>
       <Route path='/' element={<App />}></Route>
       <Route path='experience' element={<SomeExampleComponent />} />
-      <Route path='aboutMe' element={<MyFirstComponent />} />
+      <Route path='aboutMe' element={<AboutMe />} />
       <Route path='/navbar' element={<Navbar />}/>
     </Routes>
   </BrowserRouter>
