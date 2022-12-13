@@ -21,6 +21,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
   <BrowserRouter>
+  <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
       <Route path='example' element={<SomeExampleComponent />} />

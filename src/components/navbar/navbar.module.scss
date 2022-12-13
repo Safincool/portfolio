@@ -1,4 +1,84 @@
-.container{
-    width: 100%;
-    height: 450px;
+//container
+.container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(153, 33, 153);
+    font-size: 30px;
+    padding-left: 30px;
+    
 }
+
+
+//navleft
+
+.navleft a {
+    font-size: 60px;
+    font-style: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+ 
+//right side of navbar
+
+.navright a {
+    list-style: none; 
+    gap: 5px;
+    font-size: 20px;
+    margin: 20px;
+    position: relative;
+    color: white;
+    text-decoration: none; //removes the underline
+    
+}
+
+.navright > a:hover {
+    opacity: 1;
+}
+
+.navright > a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: all .45s;
+}
+
+ .navright > a:hover::before{
+    width: 100%;
+}
+
+//toggle
+
+/* .container > .navtoggle {
+    display: none;
+}
+
+@media (max-width: 700px){
+
+    .container > .navtoggle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .navtoggle > .menu {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        background: #ffffff;
+    }
+
+} */
+
+
+
+
