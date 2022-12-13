@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
-import './index.module.scss';
+import Experience from './components/experience/experience';
 import Navbar from './components/navbar/navbar';
+import AboutMe from './components/aboutMe/aboutMe';
+import './index.module.scss';
 
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import AboutMe from './components/aboutMe/aboutMe';
+
 
 
 
@@ -25,7 +25,7 @@ root.render(
   <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
-      <Route path='experience' element={<SomeExampleComponent />} />
+      <Route path='experience' element={<Experience />} />
       <Route path='aboutMe' element={<AboutMe />} />
       <Route path='/navbar' element={<Navbar />}/>
     </Routes>

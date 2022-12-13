@@ -1,7 +1,7 @@
 // App.tsx
 import React from 'react'
+import Experience from './components/experience/experience';
 import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent'
 
 
 
@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div>
       <MyFirstComponent />
-      <SomeExampleComponent />
+      <Experience />
     </div>
   );
 }
