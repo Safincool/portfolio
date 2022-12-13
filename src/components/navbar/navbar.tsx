@@ -22,6 +22,8 @@ const Navbar: React.FC<NavbarProps> = () => {
         <Link to="/contact">Contact</Link>
       </div> 
 
+
+
       
     </div>
   )
