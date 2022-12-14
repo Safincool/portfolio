@@ -20,6 +20,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       </div>
 
       <div className={styles.navright}>
+        <Link to="/home">Home</Link>
         <Link to="/experience">Experiences</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>

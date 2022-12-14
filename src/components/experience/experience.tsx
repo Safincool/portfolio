@@ -15,7 +15,7 @@ const Experience: React.FC<ExperienceProps> = () => {
         </div>
         <div className={styles.header3}>
             <h3>
-                My coding language experiences are C+,
+                My coding language experiences are C#,
                 Python, HTML, CSS, Java,
                 JavaScript, TypeScript.
             </h3>
