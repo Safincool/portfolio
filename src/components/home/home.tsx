@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './home.module.scss'
-import img1 from './images/codinglogo.png'
+
 
 type HomeProps = {
 
