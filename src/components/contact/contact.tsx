@@ -3,7 +3,7 @@ import styles from './contact.module.scss'
 import img1 from '../../images/instalogo.png'
 import img2 from '../../images/phonelogo.png'
 import img3 from '../../images/emaillogo.png'
-import img4 from '../../images/discordlogo.png'
+import img4 from '../../images/githublogo.png'
 
 
 type ContactProps = {
@@ -41,7 +41,7 @@ const Contact: React.FC<ContactProps> = () => {
 
         <div className={styles.row2a}>
           <img src={img4} alt="" width={80} height={80}/>
-          <h3>Werfy#0070</h3>
+          <h3>Safincool</h3>
         </div>
 
       </div>
