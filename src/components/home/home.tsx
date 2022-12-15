@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './home.module.scss'
+import img from '../../images/codinglogo.png'
 
 
 type HomeProps = {
@@ -18,7 +19,7 @@ const Home: React.FC<HomeProps> = () => {
         </h2>
         
       <div className={styles.image}>
-        <img src='./images/codinglogo.png' alt="" width={500} height={500}/>   
+        <img src={img} alt="" width={500} height={500}/>   
       </div>
     </div>
     

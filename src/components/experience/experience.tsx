@@ -21,7 +21,7 @@ const Experience: React.FC<ExperienceProps> = () => {
             </h3>
             <h3>
                 I have worked at Restaurants,
-                Markets and in a Elementary School Club. 
+                Markets and in a Elementary After School Club. 
                 So I have a good experience of Customer Service.
             </h3>
         </div> 
