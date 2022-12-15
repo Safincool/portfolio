@@ -29,7 +29,7 @@ const Contact: React.FC<ContactProps> = () => {
 
         <div className={styles.row1b}>
           <img src={img2} alt="" width={80} height={80} />
-          <h3>+3584578370380</h3>
+          <h3></h3>
         </div>
 
       <div className={styles.row2}>
