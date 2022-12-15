@@ -10,7 +10,7 @@ import Home from './components/home/home';
 import './index.module.scss';
 
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -26,7 +26,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
+  <HashRouter>
   <Navbar />
     <Routes>
       <Route path='/' element={<App />}></Route>
@@ -36,7 +36,7 @@ root.render(
       <Route path='/projects' element={<Project />}/>
       <Route path='/contact' element={<Contact />}/>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 </React.StrictMode>
 );
 
