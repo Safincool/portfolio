@@ -17,7 +17,7 @@ const Experience: React.FC<ExperienceProps> = () => {
             <h3>
                 My coding language experiences are C#,
                 Python, HTML, CSS, Java,
-                JavaScript, TypeScript.
+                JavaScript, TypeScript etc.
             </h3>
             <h3>
                 I have worked at Restaurants,
