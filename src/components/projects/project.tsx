@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './project.module.scss'
-import img from '../../images/bunnyss.png'
 
 type ProjectProps = {
 
